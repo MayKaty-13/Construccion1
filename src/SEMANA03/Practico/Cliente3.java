@@ -1,10 +1,10 @@
 
 package SEMANA03.Practico;
 
-public class Cliente {
+public class Cliente3 {
     private String nombre; 
     private int monto;
-    public Cliente(String nom){
+    public Cliente3(String nom){
      nombre=nom; monto=0; 
     } 
     public void depositar(int m){ 

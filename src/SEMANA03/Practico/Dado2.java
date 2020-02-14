@@ -1,7 +1,7 @@
 
 package SEMANA03.Practico;
 
-public class Dado {
+public class Dado2 {
   private int valor;
   public void tirar(){ 
     valor=1+(int)(Math.random()*6);

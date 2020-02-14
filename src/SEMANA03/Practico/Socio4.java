@@ -1,14 +1,14 @@
 
 package SEMANA03.Practico;
 
-public class Socio {
+public class Socio4 {
  private String nombre;
  private int antiguedad;
-  public Socio(){
+  public Socio4(){
       nombre="";
       antiguedad=0;
   }
- public Socio(String nombre, int antiguedad){
+ public Socio4(String nombre, int antiguedad){
      this.nombre=nombre;
      this.antiguedad=antiguedad;
  }

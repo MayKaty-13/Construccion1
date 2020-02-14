@@ -1,12 +1,12 @@
 
 package SEMANA03.Practico;
 
-public class Banco {
- private Cliente cliente1,cliente2,cliente3;
-  public Banco(){ 
-    cliente1=new Cliente("Juan"); 
-    cliente2=new Cliente("Ana"); 
-    cliente3=new Cliente("Pedro"); 
+public class Banco3 {
+ private Cliente3 cliente1,cliente2,cliente3;
+  public Banco3(){ 
+    cliente1=new Cliente3("Juan"); 
+    cliente2=new Cliente3("Ana"); 
+    cliente3=new Cliente3("Pedro"); 
   } 
   public void operar(){ 
     cliente1.depositar (100); 
@@ -23,7 +23,7 @@ public class Banco {
   }
   
   public static void main(String[] ar){
-    Banco banco1=new Banco();
+    Banco3 banco1=new Banco3();
     banco1.operar();
     banco1.depositosTotales(); 
   }    

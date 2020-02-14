@@ -3,15 +3,15 @@ package SEMANA03.Practico;
 
 import java.util.Scanner;
 
-public class Alumno {
+public class Alumno1 {
   Scanner leer=new Scanner(System.in);  
   private String nombre;
   private int edad;
-    public Alumno(){
+    public Alumno1(){
         nombre="";
         edad=0;
     }
-    public Alumno(String nombre, int edad) {
+    public Alumno1(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }

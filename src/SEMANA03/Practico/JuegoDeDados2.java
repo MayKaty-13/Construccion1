@@ -1,12 +1,12 @@
 
 package SEMANA03.Practico;
 
-public class JuegoDeDados {
- private Dado dado1,dado2,dado3;
- public JuegoDeDados() { 
-   dado1=new Dado(); 
-   dado2=new Dado(); 
-   dado3=new Dado();       
+public class JuegoDeDados2 {
+ private Dado2 dado1,dado2,dado3;
+ public JuegoDeDados2() { 
+   dado1=new Dado2(); 
+   dado2=new Dado2(); 
+   dado3=new Dado2();       
  }
  public void jugar() { 
    dado1.tirar();
@@ -22,7 +22,7 @@ public class JuegoDeDados {
    }
   } 
   public static void main(String[] args) {
-    JuegoDeDados j=new JuegoDeDados(); 
+    JuegoDeDados2 j=new JuegoDeDados2(); 
     j.jugar();
     
     }

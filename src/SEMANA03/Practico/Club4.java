@@ -1,10 +1,10 @@
 
 package SEMANA03.Practico;
 
-public class Club {  
-  private Socio s1=new Socio("Andres ",5);  
-  private Socio s2=new Socio("Maria",10); 
-  private Socio s3=new Socio("Max ",7); 
+public class Club4 {  
+  private Socio4 s1=new Socio4("Andres ",5);  
+  private Socio4 s2=new Socio4("Maria",10); 
+  private Socio4 s3=new Socio4("Max ",7); 
   
   public void mayorAntiguedad(){
      if(s1.getAntiguedad()>s2.getAntiguedad())
@@ -17,7 +17,7 @@ public class Club {
      } 
   }
     public static void main(String[] args) {
-        Club club=new Club();
+        Club4 club=new Club4();
         club.mayorAntiguedad();
     }
 }
