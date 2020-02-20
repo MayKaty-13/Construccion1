@@ -1,5 +1,5 @@
 
-package TAREA03SEMANA2;
+package SEMANA02.Practico;
 
 import java.util.Scanner;
 
