@@ -14,7 +14,7 @@ public class Ejercicio01 {
          int i=n.length()-1;
          //System.out.println(i);
         while(i>=0){
-         // acu+=Integer.parseInt(n.charAt(i)+""); 
+//          acu+=Integer.parseInt(n.charAt(i)+""); 
          acu+=Character.getNumericValue(n.charAt(i));
           i--;
         }

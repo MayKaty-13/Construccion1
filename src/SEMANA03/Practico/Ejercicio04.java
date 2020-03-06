@@ -60,7 +60,7 @@ class WUR {
 }
 public class Ejercicio04 {
    public static void main(String[] args) {
-        WUR w = new WUR("all all we need need is love love");
+        WUR w = new WUR("tu eres puro love love");
         w.contarTodas();
         System.out.println(w.contar_Repetidas("love"));
     }  

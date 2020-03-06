@@ -133,7 +133,7 @@ public class Ventana2 extends javax.swing.JFrame {
     }//GEN-LAST:event_btRegistrarActionPerformed
 
     private void btCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCancelarActionPerformed
-        setVisible(false);
+
         new Ventana1().recibirDatos(a);
         dispose();
     }//GEN-LAST:event_btCancelarActionPerformed
